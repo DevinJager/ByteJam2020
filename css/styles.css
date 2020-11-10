@@ -101,3 +101,11 @@ body {
 	background-repeat: repeat-x;
 	background-color:#1c2550;
 }
+
+.center {
+  margin: auto;
+  width: 565px;
+  height: 315px;
+  border: 3px solid red;
+  padding: 10px;
+}
