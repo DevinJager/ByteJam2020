@@ -3,13 +3,18 @@ html {
 }
 
 header {
- background-image: url("images/AmericanFlag1.jpg");
- background-color: #cccccc;
+ background-image:url("images/AmericanFlag1.jpg");
+ background-color: #ffffff;
  background-repeat: repeat-x;
 }
-	
+h2 {
+  font-family: Ink Free;
+  color: #FF0000;
+  text-align: center;
+}	
 
 h1 {
+  font-family:Ink Free;
   font-size: 50px;
   line-height: 1;
   text-align: center;
@@ -18,10 +23,11 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: Ink Free;
 }
 
 .navbar a {
+  font-family: Ink Free;
   float: left;
   font-size: 16px;
   color: white;
@@ -31,19 +37,21 @@ h1 {
 }
 
 .dropdown {
+  font-family: Ink Free;
   float: left;
   overflow: hidden;
 }
 
 
 .dropdown .dropbtn {
+  font-family: Ink Free;
   font-size: 16px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-family:Ink Free; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
@@ -64,6 +72,7 @@ h1 {
 
 
 .dropdown-content a {
+  font-family: Ink Free;
   float: none;
   color: black;
   padding: 12px 16px;
@@ -80,4 +89,15 @@ h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+footer {
+	background-color: #ffffff;
+	padding:10px;
+	height:30px;
+	text-decoration: none;
+}
+body {
+	background-repeat: repeat-x;
+	background-color:#1c2550;
 }

@@ -4,7 +4,7 @@ html {
 
 header {
  background-image: url("images/AmericanFlag1.jpg");
- background-color: #cccccc;
+ background-color: #ffffff;
  background-repeat: repeat-x;
 }
 	
@@ -18,7 +18,7 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: Ink Free;
 }
 
 .navbar a {
@@ -80,4 +80,9 @@ h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+body {
+	background-repeat: repeat-x;
+	background-color:#1c2550;
 }
