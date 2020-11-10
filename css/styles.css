@@ -51,8 +51,8 @@ h1 {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family:Ink Free; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family:Ink Free;
+  margin: 0; 
 }
 
 
@@ -91,12 +91,7 @@ h1 {
   display: block;
 }
 
-footer {
-	background-color: #ffffff;
-	padding:10px;
-	height:30px;
-	text-decoration: none;
-}
+
 body {
 	background-repeat: repeat-x;
 	background-color:#1c2550;
@@ -109,3 +104,11 @@ body {
   border: 3px solid red;
   padding: 10px;
 }
+
+.webgl-content {
+  height: 970px;
+  width: 600px;
+  position: relative;
+  top: 315px;   
+}​
+

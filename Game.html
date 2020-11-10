@@ -1,14 +1,19 @@
 <html>
-
+<html lang="en-us">
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Red, White and Bool</title>
-
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
-
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="Build/UnityLoader.js"></script>
+<script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/BytejamWebGL.json", {onProgress: UnityProgress});
+</script>
+</head>
+	
 <header>
 <div class="navbar">
   <div class="dropdown">
@@ -16,8 +21,8 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Game</a>
-      <a href="#">Highscores</a>
+      <a href="Game.html">Game</a>
+      <a href="Highscores.html">Highscores</a>
       <a href="#">%%</a>
     </div>
   </div> 
@@ -26,15 +31,15 @@
 <h1 style="font-family:Ink Free;">Blitzkrieg Defense ByteJam 2020</h1>
 </header>
 
+
 <body>
-
-</body>
-
-<footer>
-	<p>Created by: Red, White & Bool</p>
-</footer>
-
-
-
-
+    <div class="webgl-content">
+      <div id="unityContainer"style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">BytejamProject</div>
+      </div>
+    </div>
+  </body>
 </html>
