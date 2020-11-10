@@ -3,11 +3,10 @@ html {
 }
 
 header {
- background-image: url("images/AmericanFlag1.jpg");
- background-color: #ffffff;
+ color: #FFD933;
  background-repeat: repeat-x;
 }
-	
+
 
 h1 {
   font-size: 50px;
@@ -18,7 +17,7 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Ink Free;
+  font-family: Lucida Console;
 }
 
 .navbar a {
@@ -84,5 +83,13 @@ h1 {
 
 body {
 	background-repeat: repeat-x;
-	background-color:#1c2550;
+	background-color:#6C520F;
+}
+footer {
+	background-color: #333;
+	padding:10px;
+	height:30px;
+  color: #FFD933;
+	text-decoration: none;
+  align-content: center;
 }
