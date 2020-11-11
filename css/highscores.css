@@ -3,10 +3,9 @@ html {
 }
 
 header {
- color: #FFD933;
+ color: #e63946;
  background-repeat: repeat-x;
 }
-
 
 h1 {
   font-size: 50px;
@@ -16,7 +15,7 @@ h1 {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #d41c04;
   font-family: Lucida Console;
 }
 
@@ -81,15 +80,43 @@ h1 {
   display: block;
 }
 
-body {
-	background-repeat: repeat-x;
-	background-color:#6C520F;
-}
 footer {
-	background-color: #333;
 	padding:10px;
 	height:30px;
-  color: #FFD933;
 	text-decoration: none;
   align-content: center;
+}
+body {
+  background-color: #457b9d;
+	background-repeat: repeat-x;
+}
+
+h1 {
+  font-family: Lucida Console;
+  color: #f1faee;
+}
+h2 {
+  font-family: Lucida Console;
+  color: #457b9d;
+}
+h3 {
+  font-family: Lucida Console;
+  color: #457b9d;
+}
+.center {
+  background-color: #f1faee;
+  margin: auto;
+  width: 95%;
+  height: 315px;
+  border: 3px solid #e63946;
+  padding: 10px;
+  align-content: center;
+}
+.desciption {
+  background-color: #f1faee;
+  margin: auto;
+  width: 95%;
+  height: 150px;
+  border: 3px solid #e63946;
+  padding: 10px;
 }
